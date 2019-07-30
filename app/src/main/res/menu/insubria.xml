@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_esami"
+            android:icon="@drawable/ic_esami"
+            android:title="@string/date_esami" />
+        <item android:id="@+id/nav_battaglia"
+            android:icon="@drawable/ic_battaglia"
+            android:title="@string/piano_di_battaglia" />
+        <item android:id="@+id/nav_orario"
+            android:icon="@drawable/ic_orario"
+            android:title="@string/orario" />
+        <item android:id="@+id/nav_time"
+            android:icon="@drawable/ic_timeline"
+            android:title="@string/timeline" />
+        <item android:id="@+id/nav_mappa"
+            android:icon="@drawable/ic_navigation"
+            android:title="@string/mappa" />
+
+    </group>
+
+</menu>

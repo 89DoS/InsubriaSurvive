@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Survive Insubria</string>
+    <string name="apertura_navigazione">Apertura navigazione</string>
+    <string name="chiusura_navigazione">Chiusura navigazione</string>
+    <string name="orario">Orario</string>
+    <string name="piano_di_battaglia">Piano Di Battaglia</string>
+    <string name="date_esami">Date Esami</string>
+    <string name="timeline">Timeline</string>
+    <string name="mappa">mappa</string>
+    <string name="survive_insubria">Survive Insubria</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_students">Welcome Students</string>
+    <string name="get_website">Get website</string>
+    <string name="result">Result...</string>
+    <string name="padiglione">padiglione</string>
+    <string name="facolt">facoltà</string>
+    <string name="anno">anno</string>
+
+    <string-array name="Facoltà">
+        <item>Facoltà</item>
+        <item>Economia</item>
+        <item>Informatica</item>
+    </string-array>
+
+    <string-array name="Anno">
+        <item>Anno</item>
+        <item>Primo</item>
+        <item>Secondo</item>
+        <item>Terzo</item>
+    </string-array>
+
+</resources>

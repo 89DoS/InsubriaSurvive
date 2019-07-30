@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="158dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/padiglione"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="monte_generoso"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="monte"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="morselli"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="morselli"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="seppilli"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="seppilli"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="650dp"/>
+
+</RelativeLayout>
