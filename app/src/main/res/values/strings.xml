@@ -15,6 +15,10 @@
     <string name="padiglione">padiglione</string>
     <string name="facolt">facoltà</string>
     <string name="anno">anno</string>
+    <string name="pace">Pace</string>
+    <string name="allerta">allerta</string>
+    <string name="piano_di_battaglia1">Piano di battaglia1</string>
+    <string name="guerra">Guerra</string>
 
     <string-array name="Facoltà">
         <item>Facoltà</item>
@@ -23,6 +27,37 @@
     </string-array>
 
     <string-array name="Anno">
+        <item>Anno</item>
+        <item>Primo</item>
+        <item>Secondo</item>
+        <item>Terzo</item>
+    </string-array>
+
+    <string-array name="Struttura">
+        <item>D01 Dipartimento di biotecnologie e scienze della vita</item>
+        <item>D05 Dipartimento di diritto, economia e culture</item>
+        <item>D00 Dipartimento di economia</item>
+        <item>D03 Dipartimento di medicina clinica e sperimentale</item>
+        <item>D08 Dipartimento di medicina e chirurgia</item>
+        <item>D06 Dipartimento di scienza e alta tecnologia</item>
+        <item>D02 Dipartimento di scienze chirurgiche e morfologiche</item>
+        <item>D04 Dipartimento di scienze teoriche e applicate</item>
+        <item>D09 Dipartimento di scienze umane e dell'innovazione per il territorio</item>
+        <item>D07 scuola di medicina</item>
+    </string-array>
+
+    <string-array name="D01">
+        <item>F006 Biologia applicata alla ricerca biomedica</item>
+        <item>F55 Biologia sanitaria</item>
+        <item>F013 Biomedical sciences</item>
+        <item>F011 Biotecnologie</item>
+        <item>F007 Biotecnologie molecolari e industriali</item>
+        <item>PFD1 Percorso formativo 24 CFU</item>
+        <item>F012 Scienze biologiche</item>
+        <item>F002 Scienze e tecnologie biologiche</item>
+    </string-array>
+
+    <string-array name="Attività">
         <item>Anno</item>
         <item>Primo</item>
         <item>Secondo</item>
