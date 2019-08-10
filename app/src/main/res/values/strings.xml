@@ -57,11 +57,30 @@
         <item>F002 Scienze e tecnologie biologiche</item>
     </string-array>
 
-    <string-array name="Attività">
-        <item>Anno</item>
-        <item>Primo</item>
-        <item>Secondo</item>
-        <item>Terzo</item>
+    <string-array name="F006">
+        <item>Farmacologia</item>
+        <item>Meccanismi molecolari ed epigenetici</item>
+        <item>Neuropsicofarmacologia</item>
+    </string-array>
+
+    <string-array name="F55">
+    <item>Bioinformatica</item>
+    <item>Citologia e istologia</item>
+    <item>Citologia e istologia + esercitazioni</item>
+    <item>Farmacologia</item>
+    <item>Genetica</item>
+    <item>Patologia generale</item>
+    <item>Tossicologia</item>
+    </string-array>
+
+    <string-array name="F013">
+        <item>Bioinformatica</item>
+        <item>Citologia e istologia</item>
+        <item>Citologia e istologia + esercitazioni</item>
+        <item>Farmacologia</item>
+        <item>Genetica</item>
+        <item>Patologia generale</item>
+        <item>Tossicologia</item>
     </string-array>
 
 </resources>
