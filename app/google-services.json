@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159544770649",
+    "firebase_url": "https://survive-insubria.firebaseio.com",
+    "project_id": "survive-insubria",
+    "storage_bucket": "survive-insubria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159544770649:android:dd69cd1a8fd7f7bdcd7148",
+        "android_client_info": {
+          "package_name": "com.example.surviveinsubria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159544770649-uir7nn33i5k0v4r69n2e3hkaa50ulnsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.surviveinsubria",
+            "certificate_hash": "b2ff512227272cfcaa817a9d6928c13cfad6ecc6"
+          }
+        },
+        {
+          "client_id": "159544770649-dsk3au1mgm9c6kpp4e12ur60mm9ftt9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7e8z-vA7pKfCiYrd9z6OnidRHi1_gbKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159544770649-dsk3au1mgm9c6kpp4e12ur60mm9ftt9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
