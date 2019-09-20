@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Survive Insubria</string>
 
-    <string name="facebook_application_id" translatable="false">2349180815332330</string>
-    <string name="facebook_login_protocol_scheme" translatable="false">fb2349180815332330</string>>
+    <string name="facebook_application_id">2349180815332330</string>
+    <string name="fb_login_protocol_scheme">fb2349180815332330</string>
     <string name="apertura_navigazione">Apertura navigazione</string>
     <string name="chiusura_navigazione">Chiusura navigazione</string>
     <string name="orario">Orario</string>
