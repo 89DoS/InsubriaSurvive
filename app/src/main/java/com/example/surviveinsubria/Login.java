@@ -21,6 +21,7 @@ import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
@@ -41,7 +42,7 @@ public class Login extends AppCompatActivity {
 
     private static final String TAG = "FACELOG";
 
-    private Button faceBtn;
+    private Button faceBtn, gooBtn;
 
 
 
@@ -54,6 +55,15 @@ public class Login extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         faceBtn = (Button) findViewById(R.id.face);
+        gooBtn = (Button) findViewById(R.id.goo);
+
+        // Configure Google Sign In
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestEmail()
+                .build();
+
+
 
 
         // Initialize Facebook Login button

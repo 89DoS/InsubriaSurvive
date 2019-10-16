@@ -3,6 +3,7 @@ package com.example.surviveinsubria;
 import androidx.annotation.NonNull;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
+import com.facebook.login.LoginManager;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -27,12 +28,15 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawer;
+    private FirebaseAuth mAuth;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Initialize Firebase Auth
+        mAuth = FirebaseAuth.getInstance();
 
 
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -73,8 +77,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_mappa:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Mappa()).commit();
                 break;
-
-
+            case R.id.nav_logout:
+                mAuth.signOut();
+                LoginManager.getInstance().logOut();
+                updateUI();
                       }
 
 
@@ -91,5 +97,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             super.onBackPressed();
         }
         super.onBackPressed();
+    }
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+
+        if (currentUser == null){
+            updateUI();
+        }
+
+    }
+
+    private void updateUI() {
+        Toast.makeText(MainActivity.this, "You're logged out", Toast.LENGTH_LONG).show();
+
+        Intent accountIntent = new Intent(MainActivity.this, Login.class);
+        startActivity(accountIntent);
+        finish();
+
     }
 }
