@@ -39,18 +39,18 @@
                 android:textSize="30sp"
                 android:layout_marginTop="120dp"/>
             <Button
-            android:id="@+id/goo"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Google"
-            android:textAllCaps="false"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:padding="16dp"
-            android:enabled="true"
-            android:textColor="@color/colorPrimaryDark"
-            android:layout_marginTop="48dp" />
+                android:id="@+id/goo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Google"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:enabled="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="48dp" />
 
             <Button
                 android:id="@+id/face"
