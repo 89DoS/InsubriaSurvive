@@ -7,88 +7,9 @@
     android:scrollbars="vertical" >
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text="Struttura didattica"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
-        android:textStyle="bold|italic" />
+        android:id="@+id/my_recycler_view" />
 
-
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:background="?attr/colorButtonNormal" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
-        android:text="Corso di studio"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
-        android:textStyle="bold|italic" />
-
-    <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
-        android:background="?attr/colorButtonNormal" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
-        android:text="Attività didattica"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
-        android:textStyle="bold|italic" />
-
-    <Spinner
-        android:id="@+id/spinner4"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
-        android:background="?attr/colorButtonNormal" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="570dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginRight="21dp"
-        android:background="@color/colorPrimaryDark"
-        android:text="ricerca"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold|italic" />
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="650dp"
-                android:text="" />
-        </RelativeLayout>
-    </ScrollView>
 </RelativeLayout>
